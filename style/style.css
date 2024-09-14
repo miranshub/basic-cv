@@ -17,11 +17,11 @@
     display: none;
 }
 
-/* html {
+html {
     height: 100%;
     width: 100%;
     background-color: palegreen;
-} */
+}
 
 body {
     height: 29.7cm;
@@ -35,12 +35,12 @@ body {
     color: var(--clr-prm);
     background-color: white;
     border: 1px solid black;
-    /* box-shadow: 1px 1px 100px rgb(102, 182, 248); */
+    box-shadow: 1px 1px 100px rgb(102, 182, 248);
     
-    /* position: absolute;
+    position: absolute;
     top: 0;
     left: 50%;
-    transform: translate(-50%, 0); */
+    transform: translate(-50%, 0);
 }
 
 a {
