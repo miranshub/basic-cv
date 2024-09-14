@@ -1,0 +1,21 @@
+.edu-heading {
+    font-size: 1.3rem;
+    margin-bottom: .3rem;
+}
+
+.edu-from {
+    margin-bottom: .2rem;
+}
+
+.edu-footer {
+    display: flex;
+    height: 1rem;
+    gap: .5rem;
+    font-size: .9rem;
+    align-items: start;
+}
+
+.edu-grade {
+    flex-grow: 1;
+    text-align: end;
+}

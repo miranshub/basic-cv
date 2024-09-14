@@ -1,0 +1,55 @@
+:root {
+    --clr-blk: hsl(0, 0%, 0%);
+    --clr-nvy: hsl(202, 100%, 22%);
+    --clr-blu: hsl(202, 100%, 36%);
+    --clr-prm: hsl(0, 0%, 35%);
+}
+
+h1, h2 {
+    text-transform: uppercase;
+}
+
+.black {
+    color: var(--clr-blk);
+}
+
+.navy {
+    color: var(--clr-nvy);
+}
+
+.blue {
+    color: var(--clr-blu);
+}
+
+.bold {
+    font-weight: 600;
+}
+
+.no-bold {
+    font-weight: 300;
+}
+
+.italics {
+    font-style: italic;
+}
+
+.name {
+    font-size: 2rem;
+}
+
+.calander {
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    background: url(./../icons/calander.png);
+}
+
+.background-pro {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.b {
+    border: 1px solid red;
+}

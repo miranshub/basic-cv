@@ -1,0 +1,50 @@
+:root {
+    --clr-blk: hsl(0, 0%, 0%);
+    --clr-nvy: hsl(202, 100%, 22%);
+    --clr-blu: hsl(202, 100%, 36%);
+    --clr-prm: hsl(0, 0%, 35%);
+}
+
+.name {
+    margin-bottom: .35rem;
+}
+
+.contact-me {
+    height: 1.3rem;
+    width: 100%;
+
+    display: flex;
+    justify-content: start;
+
+    
+    gap: 1rem;
+}
+.email{
+    letter-spacing: 2px;
+} 
+.phone {
+    letter-spacing: 1px;
+}
+
+.icon {
+    height: 100%;
+    aspect-ratio: 1;
+}
+
+
+.linkedin-icon {
+    background: url(./../icons/linkedin.png);
+    background-size: 100%;
+}
+
+.github-icon {
+    background: url(./../icons/github.png);
+    background-size: 150%;
+}
+
+.background-pro-1 {
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
