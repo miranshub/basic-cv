@@ -1,7 +1,7 @@
 :root {
     --clr-blk: hsl(0, 0%, 0%);
-    --clr-nvy: hsl(202, 100%, 22%);
-    --clr-blu: hsl(202, 100%, 36%);
+    --clr-nvy: hsl(214.34, 100%, 33.92%);
+    --clr-blu: hsl(202.95, 69.95%, 58.24%);
     --clr-prm: hsl(0, 0%, 35%);
 }
 
@@ -17,11 +17,11 @@
     display: none;
 }
 
-html {
+/* html {
     height: 100%;
     width: 100%;
     background-color: palegreen;
-}
+} */
 
 body {
     height: 29.7cm;
@@ -30,16 +30,17 @@ body {
     padding: 1.8rem 1.5rem;
 
     font-family: sans-serif;
+    font-size: .95rem;
 
     color: var(--clr-prm);
     background-color: white;
     border: 1px solid black;
-    box-shadow: 1px 1px 100px rgb(102, 182, 248);
+    /* box-shadow: 1px 1px 100px rgb(102, 182, 248); */
     
-    position: absolute;
+    /* position: absolute;
     top: 0;
     left: 50%;
-    transform: translate(-50%, 0);
+    transform: translate(-50%, 0); */
 }
 
 a {
@@ -47,6 +48,9 @@ a {
 }
 a:hover {
     text-decoration: underline;
+}
+span a {
+    color: inherit;
 }
 
 header {

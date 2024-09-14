@@ -1,10 +1,3 @@
-:root {
-    --clr-blk: hsl(0, 0%, 0%);
-    --clr-nvy: hsl(202, 100%, 22%);
-    --clr-blu: hsl(202, 100%, 36%);
-    --clr-prm: hsl(0, 0%, 35%);
-}
-
 h1, h2 {
     text-transform: uppercase;
 }
@@ -52,4 +45,21 @@ h1, h2 {
 
 .b {
     border: 1px solid red;
+}
+
+
+h2 {
+    font-size: 1.3rem;
+}
+
+h3 {
+    font-size: 1.15rem;
+}
+
+.git {
+    font-size: .75rem;
+}
+
+.project-header-sub, .edu-footer span {
+    font-size: .8rem;
 }

@@ -9,19 +9,9 @@
     padding: 0 .2rem 0 0;
 }
 
-.project-header .heading {
-    font-size: 1.3rem;
-}
-
-.git {
-    font-size: .9em;
-}
-
 .project-header-sub {
     display: flex;
     align-items: center;
-
-    font-size: .9rem;
 }
 
 .project-type {
