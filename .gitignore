@@ -2,3 +2,6 @@
 bin/
 .hintrc
 outputs/
+json/
+*.zip
+*.exe
